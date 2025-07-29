@@ -1,0 +1,34 @@
+.contact-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 1rem 1rem;
+  text-align: center;
+}
+.contact-info {
+  margin-top: 2.2rem;
+  font-size: 1.13rem;
+  color: #7a4a1b;
+  font-family: 'Montserrat', Arial, sans-serif;
+  line-height: 2.1;
+}
+.contact-info strong {
+  font-size: 1.18rem;
+  color: #c89c5d;
+  letter-spacing: 0.5px;
+}
+.contact-img {
+  margin: 2.2rem auto 0 auto;
+  display: block;
+  max-width: 180px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+}
+@media (max-width: 600px) {
+  .contact-page {
+    padding: 1.2rem 0.3rem 1rem 0.3rem;
+  }
+  .contact-img {
+    max-width: 120px;
+  }
+}
