@@ -8,7 +8,6 @@ export default function Layout({ children }) {
       <header className="header">
         <div className="logo-area">
           <img src="/logo-arabyka.png" alt="Arabyka Logo" className="logo" />
-          <img src="/home-arabyka.png" alt="Arabyka" style={{ height: '80px', width: 'auto', display: 'block' }} />
         </div>
         <nav className="nav">
           <Link to="/">Home</Link>
